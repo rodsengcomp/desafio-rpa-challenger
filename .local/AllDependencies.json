@@ -5015,15 +5015,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\d788796\\.nuget\\packages\\": {}
+    "C:\\Users\\rodol\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Desafio RPA Challenge",
       "projectName": "Desafio RPA Challenge",
-      "projectPath": "C:\\Users\\d788796\\Documents\\UiPath\\desafio_rpa_challenge\\.local",
-      "packagesPath": "C:\\Users\\d788796\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\d788796\\Documents\\UiPath\\desafio_rpa_challenge\\.local"
+      "projectPath": "C:\\Users\\rodol\\Documents\\UiPath\\desafio-rpa-challenger\\.local",
+      "packagesPath": "C:\\Users\\rodol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rodol\\Documents\\UiPath\\desafio-rpa-challenger\\.local"
     },
     "frameworks": {
       "net461": {
@@ -5049,8 +5049,21 @@
             "version": "[21.4.4, 21.4.4]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\d788796\\AppData\\Local\\UiPath\\app-21.4.4\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\rodol\\AppData\\Local\\UiPath\\app-21.4.4\\runtime.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Microsoft.Extensions.Primitives 3.1.6 depends on System.Memory (>= 4.5.2) but System.Memory 4.5.2 was not found. An approximate best match of System.Memory 4.5.3 was resolved.",
+      "libraryId": "System.Memory",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win7-x86"
+      ]
+    }
+  ]
 }
